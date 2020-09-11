@@ -1,16 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>e-graphs good</title>
-    <meta name="description" content="e-graphs are good">
-    <meta name="keywords" content="">
-    <style type="text/css">
-      
-    </style>
-  </head>
-  <body>
-    <h1>e-graphs good</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>egg</title>
+  <meta name="description" content="e-graphs good">
+  <meta name="keywords" content="">
+  <link rel="icon" type="image/svg+xml" href="/egg.svg">
+  <style type="text/css">
+    body {
+      background-color: cornsilk;
+      max-width: 800px;
+      font-size: 120%;
+      line-height: 1.2;
+      margin: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      /* font-family: Palatino, 'Times New Roman', Times, serif; */
+    }
+
+    .sans {
+      font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    }
+
+    figcaption {
+      opacity: 80%;
+      font-size: 90%;
+      ;
+    }
+
+    code {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .egg-letter {
+      border-bottom: black 1px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class='sans' style='text-align: center; vertical-align: middle;'>
+    <img style="display: inline; vertical-align: middle;" src="egg.svg">
+    <code>egg</code>:
+    <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
+    <span class='egg-letter'>g</span>ood
+  </h1>
+
+  <p>
+    The <code>egg</code> project uses e-graphs
+    to provide a new way to build
+    program optimizers and synthesizers.
+    <code>egg</code>
+    is developed by
+    <a href="https://mwillsey.com">Max Willsey</a>
+    and
+    <a href="https://github.com/orgs/egraphs-good/people">his friends</a>
+    on
+    <a href="https://github.com/egraphs-good">GitHub</a>.
+  </p>
+
+  <figure>
+    <img style="width: 100%;" src="/egraphs.svg">
+    <figcaption>
+      An e-graph compactly represents
+      many equivalent programs.
+      These four e-graphs represent more and more (even infinite!) equivalent ways to
+      write <em>(a × 2) / 2</em>.
+      The <code>egg</code> project aims to make e-graphs fast and flexible enough
+      for use in program optimization and synthesis.
+    </figcaption>
+  </figure>
+
+  <p>
+    The core
+    <a href="https://github.com/mwillsey/egg"><code>egg</code></a>
+    library provides high-performance, flexible e-graphs implemented in
+    <a href="https://rust-lang.org">Rust</a>.
+    It is packaged on
+    <a href="https://crates.io/crates/egg">crates.io</a>
+    and documented on
+    <a href="https://docs.rs/egg/0.6.0/egg/">docs.rs</a>,
+    including a
+    <a href="https://docs.rs/egg/*/egg/tutorials/">tutorial</a>
+    that provides an introduction to e-graphs and their use cases.
+  </p>
+
+  <h2>Projects using <code>egg</code></h2>
+
+  <p>
+    Are you using <code>egg</code> in your project?
+    <a href="https://github.com/egraphs-good/egraphs-good.github.io">Open a pull request</a>
+    to add your project to this list!
+
+  </p>
+
+  <ul>
+    <li>
+      <a href="http://herbie.uwplse.org/">Herbie</a>
+      improves the accuracy of floating point expressions.
+      The
+      <a href="https://github.com/herbie-fp/egg-herbie">egg-herbie</a>
+      library made parts of Herbie over 3000x faster!
+    </li>
+    <li>
+      <a href="https://github.com/uwplse/szalinski">Szalinski</a> 
+      shrinks 3D CAD programs to make them more editable.
+    </li>
+    <li>
+      <a href="https://arxiv.org/abs/2002.07951">SPORES</a>
+      optimized linear algebra expressions up to 5x
+      better than state-of-the-art.
+    </li>
+  </ul>
+
+</body>
 </html>
