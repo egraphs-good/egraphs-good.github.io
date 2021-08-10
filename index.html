@@ -57,32 +57,40 @@
      margin-top: 2em;
      text-align: center;
    }
+
+   nav ul { list-style: none }
+   nav ul li {
+     display: inline-block;
+     padding: 10px;
+   }
   </style>
 </head>
 
 <body>
-  <h1 style='text-align: center; vertical-align: middle;'>
-    <img style="display: inline; vertical-align: middle;" src="egg.svg">
-    <span class="egg">egg</span>:
-    <span class="word">
-      <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
-    </span>
-    <span class="word">
-      <span class='egg-letter'>g</span>ood
-    </span>
-  </h1>
+  <div style="text-align: center">
+    <h1 style="vertical-align: middle">
+      <img style="display: inline; vertical-align: middle;" src="egg.svg">
+      <span class="egg">egg</span>:
+      <span class="word">
+        <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
+      </span>
+      <span class="word">
+        <span class='egg-letter'>g</span>ood
+      </span>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/egraphs-good/egg">GitHub</a></li>
+        <li><a href="https://docs.rs/egg">Documentation</a></li>
+        <li><a href="https://github.com/egraphs-good/egg/discussions">Blog &amp; Discussion</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <p>
     The <span class="egg">egg</span> project uses e-graphs
     to provide a new way to build
     program optimizers and synthesizers.
-    <span class="egg">egg</span>
-    is developed by
-    <a href="https://mwillsey.com">Max Willsey</a>
-    and
-    <a href="https://github.com/orgs/egraphs-good/people">his friends</a>
-    on
-    <a href="https://github.com/egraphs-good">GitHub</a>.
   </p>
 
   <figure>
