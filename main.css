@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body {
+    background-color: papayawhip;
+    max-width: 800px;
+    font-size: 120%;
+    line-height: 1.2;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Coming Soon', 'Comic Sans', sans-serif;
+    font-weight: normal;
+}
+
+figcaption {
+    opacity: 80%;
+    font-size: 90%;
+}
+
+.egg-heading {
+    vertical-align: middle;
+    font-family: 'Coming Soon', 'Comic Sans', sans-serif;
+}
+
+.egg-heading a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.egg-letter {
+    line-height: 0.75em;
+    display: inline-block;
+    border-bottom: solid .25em #daa52099;
+}
+
+.word {
+    white-space: nowrap
+}
+
+.venue::before {
+    content: "["
+}
+
+.venue::after {
+    content: "]"
+}
+
+.venue {
+    opacity: 80%;
+    white-space: nowrap;
+}
+
+footer {
+    font-size: 60%;
+    opacity: 80%;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}

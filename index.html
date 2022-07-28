@@ -7,88 +7,22 @@
   <title>egg</title>
   <meta name="description" content="'egg' is an open-source, high performance e-graph and equality saturation toolkit.">
   <link rel="icon" type="image/svg+xml" href="/egg.svg">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
-  <style type="text/css">
-    body {
-      background-color: papayawhip;
-      max-width: 800px;
-      font-size: 120%;
-      line-height: 1.2;
-      margin: auto;
-      padding: 20px;
-      font-family: 'Open Sans', 'Roboto', sans-serif;
-    }
-
-    h1,
-    h2 {
-      font-family: 'Coming Soon', 'Comic Sans', sans-serif;
-      font-weight: normal;
-    }
-
-    figcaption {
-      opacity: 80%;
-      font-size: 90%;
-    }
-
-    .egg {
-      font-family: 'Coming Soon', 'Comic Sans', sans-serif;
-      font-weight: bold;
-    }
-
-    .egg-letter {
-      line-height: 0.75em;
-      display: inline-block;
-      border-bottom: solid .25em #daa52099;
-    }
-
-    .word {
-      white-space: nowrap
-    }
-
-    .venue::before {
-      content: "["
-    }
-
-    .venue::after {
-      content: "]"
-    }
-
-    .venue {
-      opacity: 80%;
-      white-space: nowrap;
-    }
-
-    footer {
-      font-size: 60%;
-      opacity: 80%;
-      margin-top: 2em;
-      text-align: center;
-    }
-
-    nav ul {
-      list-style: none
-    }
-
-    nav ul li {
-      display: inline-block;
-      padding: 10px;
-    }
-  </style>
+  <link href="/main.css" rel="stylesheet">
 </head>
 
 <body>
   <div style="text-align: center">
-    <h1 style="vertical-align: middle">
-      <img style="display: inline; vertical-align: middle;" src="egg.svg">
-      <span class="egg">egg</span>:
-      <span class="word">
-        <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
-      </span>
-      <span class="word">
-        <span class='egg-letter'>g</span>ood
-      </span>
+    <h1 class="egg-heading">
+      <img style="display: inline; vertical-align: middle;" src="/egg.svg">
+      <a href="/">
+        <b class="egg">egg</b>:
+        <span class="word">
+          <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
+        </span>
+        <span class="word">
+          <span class='egg-letter'>g</span>ood
+        </span>
+      </a>
     </h1>
     <nav>
       <ul>
@@ -161,6 +95,10 @@
     <a href="https://github.com/egraphs-good/egg/blob/master/CHANGELOG.md">changelog</a>.
   </p>
   <ul>
+    <li>
+      The inaugural <a href="workshop/2022.html">EGRAPHS workshop</a>
+      at PLDI 2022 was a huge success!
+    </li>
     <li>
       <a href="https://dl.acm.org/doi/pdf/10.1145/3485496">Ruler</a> won a Distinguished Paper Award at OOPSLA 2021!
       Check out the talk <a
