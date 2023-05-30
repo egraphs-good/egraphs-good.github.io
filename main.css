@@ -69,7 +69,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding: 10px;
+    margin-right: 1rem;
 }
 
 body ul li:not(:last-child) {
