@@ -1,156 +1,126 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: EGRAPHS 2022
+---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>egg</title>
-  <meta name="description" content="'egg' is an open-source, high performance e-graph and equality saturation toolkit.">
-  <link rel="icon" type="image/svg+xml" href="/egg.svg">
-  <link href="/main.css" rel="stylesheet">
-</head>
+<p>
+  <a href="https://pldi22.sigplan.org/home/egraphs-2022">EGRAPHS 2022</a> was held at <a
+    href="https://pldi22.sigplan.org/home/egraphs-2022">PLDI 2022</a>
+  and included the following presentations:
+</p>
 
-<body>
-  <div style="text-align: center">
-    <h1 class="egg-heading">
-      <img style="display: inline; vertical-align: middle;" src="/egg.svg">
-      <a href="/">
-        <b class="egg">egg</b>:
-        <span class="word">
-          <span class='egg-letter'>e</span>-<span class='egg-letter'>g</span>raphs
-        </span>
-        <span class="word">
-          <span class='egg-letter'>g</span>ood
-        </span>
-      </a>
-    </h1>
-  </div>
 
+<div class="schedule">
+  <style>
+    .affiliation {
+      font-style: italic
+    }
+
+    .affiliation::before {
+      content: '('
+    }
+
+    .affiliation::after {
+      content: ')'
+    }
+  </style>
+  <h3>Sketch-Guided Equality Saturation</h3>
+  <p>Thomas Koehler <span class="affiliation">University of Glasgow</span></p>
+  <a href="https://arxiv.org/abs/2111.13040">Pre-print</a>
+
+  <h3>Synthesizing Mathematical Identities with E-Graphs</h3>
   <p>
-    <a href="https://pldi22.sigplan.org/home/egraphs-2022">EGRAPHS 2022</a> was held at <a
-      href="https://pldi22.sigplan.org/home/egraphs-2022">PLDI 2022</a>
-    and included the following presentations:
+    Ian Briggs <span class="affiliation">University of Utah</span>,
+    Pavel Panchekha <span class="affiliation">University of Utah</span>
+  </p>
+  <a href="https://dl.acm.org/doi/10.1145/3520308.3534506">Paper</a>
+
+  <h3>Logging an Egg: Datalog on E-Graphs</h3>
+  <p>Philip Zucker <span class="affiliation">Draper Laboratory</span></p>
+  <a href="https://github.com/philzook58/egglog0-talk/raw/main/out.pdf">Pre-print</a>
+
+  <h3>Chasing an egg</h3>
+  <p>Yihong Zhang <span class="affiliation">University of Washington</span></p>
+  <a href="https://effect.systems/doc/pldi-2022-egraphs/abstract.pdf">Pre-print</a>
+
+  <h3>ECTAs: E-Graphs Better (at Encoding)</h3>
+  <p>
+    James Koppel <span class="affiliation">Massachusetts Institute of Technology</span>,
+    Zheng Guo <span class="affiliation">University of California, San Diego</span>,
+    Edsko de Vries <span class="affiliation">Well-Typed LLP</span>,
+    Armando Solar-Lezama <span class="affiliation">Massachusetts Institute of Technology</span>,
+    Nadia Polikarpova <span class="affiliation">University of California, San Diego</span>
   </p>
 
-  <div class="schedule">
-    <style>
-      .affiliation {
-        font-style: italic
-      }
+  <h3>E-Graphs, VSAs, and Tree Automata: a Rosetta Stone</h3>
+  <p>
+    Yisu Remy Wang <span class="affiliation">University of Washington</span>,
+    James Koppel <span class="affiliation">Massachusetts Institute of Technology</span>,
+    Altan Haan <span class="affiliation">OctoML</span>,
+    Josh Pollock <span class="affiliation">MIT CSAIL</span>
+  </p>
+  <a href="https://remy.wang/reports/dfta.pdf">Pre-print</a>
 
-      .affiliation::before {
-        content: '('
-      }
+  <h3>Equality Saturation as a Tactic for Proof Assistants</h3>
+  <p>
+    Andrés Goens <span class="affiliation">University of Edinburgh</span>,
+    Siddharth Bhat <span class="affiliation">University of Edinburgh</span>
+  </p>
 
-      .affiliation::after {
-        content: ')'
-      }
-    </style>
-    <h3>Sketch-Guided Equality Saturation</h3>
-    <p>Thomas Koehler <span class="affiliation">University of Glasgow</span></p>
-    <a href="https://arxiv.org/abs/2111.13040">Pre-print</a>
+  <h3>Towards Optimising Certified Programs by Proof Rewriting</h3>
+  <p>
+    Kiran Gopinathan <span class="affiliation">National University of Singapore</span>,
+    Ilya Sergey <span class="affiliation">National University of Singapore</span>
+  </p>
 
-    <h3>Synthesizing Mathematical Identities with E-Graphs</h3>
-    <p>
-      Ian Briggs <span class="affiliation">University of Utah</span>,
-      Pavel Panchekha <span class="affiliation">University of Utah</span>
-    </p>
-    <a href="https://dl.acm.org/doi/10.1145/3520308.3534506">Paper</a>
+  <h3>Quiche: A Python Implementation of E-Graphs</h3>
+  <p>Rebecca Swords</p>
 
-    <h3>Logging an Egg: Datalog on E-Graphs</h3>
-    <p>Philip Zucker <span class="affiliation">Draper Laboratory</span></p>
-    <a href="https://github.com/philzook58/egglog0-talk/raw/main/out.pdf">Pre-print</a>
+  <h3>Optimizing Large Integer Multiplier on FPGAs Using Equality Saturation</h3>
+  <p>
+    Ecenur Ustun <span class="affiliation">Cornell University</span>,
+    Jiaqi Yin <span class="affiliation">University of Utah</span>,
+    Zhiru Zhang <span class="affiliation">Cornell University</span>
+  </p>
 
-    <h3>Chasing an egg</h3>
-    <p>Yihong Zhang <span class="affiliation">University of Washington</span></p>
-    <a href="https://effect.systems/doc/pldi-2022-egraphs/abstract.pdf">Pre-print</a>
+  <h3>Wasm-mutate: Fuzzing WebAssembly Compilers with E-Graphs</h3>
+  <p>
+    Javier Cabrera Arteaga <span class="affiliation">KTH Royal Institute of Technology</span>,
+    Nicholas Fitzgerald <span class="affiliation">Fastly Inc.</span>,
+    Martin Monperrus <span class="affiliation">KTH Royal Institute of Technology</span>,
+    Benoit Baudry <span class="affiliation">KTH</span>
+  </p>
+  <a href="https://www.jacarte.me/assets/pdf/wasm_mutate.pdf">Pre-print</a>
 
-    <h3>ECTAs: E-Graphs Better (at Encoding)</h3>
-    <p>
-      James Koppel <span class="affiliation">Massachusetts Institute of Technology</span>,
-      Zheng Guo <span class="affiliation">University of California, San Diego</span>,
-      Edsko de Vries <span class="affiliation">Well-Typed LLP</span>,
-      Armando Solar-Lezama <span class="affiliation">Massachusetts Institute of Technology</span>,
-      Nadia Polikarpova <span class="affiliation">University of California, San Diego</span>
-    </p>
+  <h3>QuEgg: Automatic Optimization of Quantum Circuits Using Equality Graphs</h3>
+  <p>Spencer King</p>
 
-    <h3>E-Graphs, VSAs, and Tree Automata: a Rosetta Stone</h3>
-    <p>
-      Yisu Remy Wang <span class="affiliation">University of Washington</span>,
-      James Koppel <span class="affiliation">Massachusetts Institute of Technology</span>,
-      Altan Haan <span class="affiliation">OctoML</span>,
-      Josh Pollock <span class="affiliation">MIT CSAIL</span>
-    </p>
-    <a href="https://remy.wang/reports/dfta.pdf">Pre-print</a>
+  <h3>On the Optimization of Equivalent Concurrent Computations</h3>
+  <p>
+    Henrich Lauko <span class="affiliation">Trail of Bits</span>,
+    Lukáš Korenčik <span class="affiliation">Trail of Bits</span>,
+    Peter Goodman <span class="affiliation">Trail of Bits</span>
+  </p>
 
-    <h3>Equality Saturation as a Tactic for Proof Assistants</h3>
-    <p>
-      Andrés Goens <span class="affiliation">University of Edinburgh</span>,
-      Siddharth Bhat <span class="affiliation">University of Edinburgh</span>
-    </p>
+  <h3>Abstract Interpretation on E-Graphs</h3>
+  <p>
+    Samuel Coward <span class="affiliation">Imperial College London</span>,
+    George A. Constantinides <span class="affiliation">Imperial College London</span>,
+    Theo Drane <span class="affiliation">Intel Corporation</span>
+  </p>
+  <a href="https://arxiv.org/abs/2203.09191">Pre-print</a>
 
-    <h3>Towards Optimising Certified Programs by Proof Rewriting</h3>
-    <p>
-      Kiran Gopinathan <span class="affiliation">National University of Singapore</span>,
-      Ilya Sergey <span class="affiliation">National University of Singapore</span>
-    </p>
+  <h3>Colored E-Graph: Supporting Multiple Equivalence Relations with Resource Sharing</h3>
+  <p>
+    Eytan Singher <span class="affiliation">Technion</span>,
+    Shachar Itzhaky <span class="affiliation">Technion</span>
+  </p>
 
-    <h3>Quiche: A Python Implementation of E-Graphs</h3>
-    <p>Rebecca Swords</p>
+  <h3>Toward a Unified Framework for Program Optimization, Bug-Finding, and Repair</h3>
+  <p>
+    Jordan Schmerge <span class="affiliation">Colorado School of Mines</span>,
+    Jake Vossen <span class="affiliation">Colorado School of Mines</span>,
+    Jedidiah McClurg <span class="affiliation">Colorado School of Mines</span>
+  </p>
 
-    <h3>Optimizing Large Integer Multiplier on FPGAs Using Equality Saturation</h3>
-    <p>
-      Ecenur Ustun <span class="affiliation">Cornell University</span>,
-      Jiaqi Yin <span class="affiliation">University of Utah</span>,
-      Zhiru Zhang <span class="affiliation">Cornell University</span>
-    </p>
-
-    <h3>Wasm-mutate: Fuzzing WebAssembly Compilers with E-Graphs</h3>
-    <p>
-      Javier Cabrera Arteaga <span class="affiliation">KTH Royal Institute of Technology</span>,
-      Nicholas Fitzgerald <span class="affiliation">Fastly Inc.</span>,
-      Martin Monperrus <span class="affiliation">KTH Royal Institute of Technology</span>,
-      Benoit Baudry <span class="affiliation">KTH</span>
-    </p>
-    <a href="https://www.jacarte.me/assets/pdf/wasm_mutate.pdf">Pre-print</a>
-
-    <h3>QuEgg: Automatic Optimization of Quantum Circuits Using Equality Graphs</h3>
-    <p>Spencer King</p>
-
-    <h3>On the Optimization of Equivalent Concurrent Computations</h3>
-    <p>
-      Henrich Lauko <span class="affiliation">Trail of Bits</span>,
-      Lukáš Korenčik <span class="affiliation">Trail of Bits</span>,
-      Peter Goodman <span class="affiliation">Trail of Bits</span>
-    </p>
-
-    <h3>Abstract Interpretation on E-Graphs</h3>
-    <p>
-      Samuel Coward <span class="affiliation">Imperial College London</span>,
-      George A. Constantinides <span class="affiliation">Imperial College London</span>,
-      Theo Drane <span class="affiliation">Intel Corporation</span>
-    </p>
-    <a href="https://arxiv.org/abs/2203.09191">Pre-print</a>
-
-    <h3>Colored E-Graph: Supporting Multiple Equivalence Relations with Resource Sharing</h3>
-    <p>
-      Eytan Singher <span class="affiliation">Technion</span>,
-      Shachar Itzhaky <span class="affiliation">Technion</span>
-    </p>
-
-    <h3>Toward a Unified Framework for Program Optimization, Bug-Finding, and Repair</h3>
-    <p>
-      Jordan Schmerge <span class="affiliation">Colorado School of Mines</span>,
-      Jake Vossen <span class="affiliation">Colorado School of Mines</span>,
-      Jedidiah McClurg <span class="affiliation">Colorado School of Mines</span>
-    </p>
-
-  </div>
-
-
-  <footer>
-    View or edit this site on <a href="https://github.com/egraphs-good/egraphs-good.github.io">GitHub</a>.
-  </footer>
-</body>
-
-</html>
+</div>

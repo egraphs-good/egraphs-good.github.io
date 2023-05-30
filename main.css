@@ -5,7 +5,7 @@ body {
     background-color: papayawhip;
     max-width: 800px;
     font-size: 120%;
-    line-height: 1.2;
+    line-height: 1.3;
     margin: auto;
     padding: 20px;
     font-family: 'Open Sans', 'Roboto', sans-serif;
@@ -14,7 +14,7 @@ body {
 h1,
 h2 {
     font-family: 'Coming Soon', 'Comic Sans', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 figcaption {
@@ -58,7 +58,7 @@ figcaption {
 footer {
     font-size: 60%;
     opacity: 80%;
-    margin-top: 2em;
+    margin-top: 5em;
     text-align: center;
 }
 
@@ -70,4 +70,8 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 10px;
+}
+
+body ul li:not(:last-child) {
+    margin-bottom: 0.3rem;
 }
