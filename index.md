@@ -27,6 +27,12 @@ high-performance, flexible e-graphs implemented in
 [tutorial](https://docs.rs/egg/*/egg/tutorials/) that provides an
 introduction to e-graphs and their use cases.
 
+The newer [egglog](https://github.com/egraphs-good/egglog) 
+ system provides an alternative approach to 
+ equality saturation based on Datalog.
+It features a language-based design, incremental execution, and composable analyses.
+Check out the [paper](//mwillsey.com/papers/egglog) and the [web demo](/egglog).
+
 <details class="bibtex">
   <summary>BibTeX</summary>
   <code style="display: block; width: 100%; overflow-x: scroll;">
