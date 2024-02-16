@@ -33,6 +33,7 @@ The newer [egglog](https://github.com/egraphs-good/egglog)
 It features a language-based design, incremental execution, and composable analyses.
 Check out the [paper](//mwillsey.com/papers/egglog) and the [web demo](/egglog).
 
+
 <details class="bibtex">
   <summary>BibTeX</summary>
   <code style="display: block; width: 100%; overflow-x: scroll;">
@@ -55,6 +56,18 @@ Check out the [paper](//mwillsey.com/papers/egglog) and the [web demo](/egglog).
     keywords = {equality saturation, e-graphs}
   }</pre></code>
 </details>
+
+## EGRAPHS Community
+
+The {{egg}} project is part of the larger 
+ [EGRAPHS Community](https://egraphs.org),
+ which aims to bring together researchers and practitioners interested in
+ e-graphs and related techniques.
+Check out the EGRAPHS Community resources, including:
+- The annual [EGRAPHS Workshop](https://egraphs.org/workshop/) at PLDI,
+- The monthly [EGRAPHS Seminar](https://egraphs.org/meeting/),
+- The [EGRAPHS Zulip](https://egraphs.zulipchat.com) for discussion and announcements
+  about egg, egglog, and other projects! 
 
 
 ## News
