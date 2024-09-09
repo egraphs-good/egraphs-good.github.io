@@ -148,6 +148,7 @@ See who\'s using {{egg}} on
     using {{egg}}.
     <span class="venue">DAC 2023</span>
 -   [Luminal](https://github.com/jafioti/luminal) compiles ML models to fast GPU kernels in seconds to accelerate deep learning on the edge.
+-   [Babble](https://github.com/dcao/babble) is a tool for discovering new functions that would simplify existing code.  <a class="venue" href="https://arxiv.org/abs/2212.04596">POPL 2023</a> 
 
 ## Projects inspired by {{egg}}
 
