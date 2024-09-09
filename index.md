@@ -147,6 +147,7 @@ See who\'s using {{egg}} on
     [Automating Constraint-Aware Datapath Optimization](https://arxiv.org/abs/2303.01839)
     using {{egg}}.
     <span class="venue">DAC 2023</span>
+-   [Luminal](https://github.com/jafioti/luminal) compiles ML models to fast GPU kernels in seconds to accelerate deep learning on the edge.
 
 ## Projects inspired by {{egg}}
 
