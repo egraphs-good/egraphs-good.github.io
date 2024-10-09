@@ -108,7 +108,7 @@ For updates on {{egg}} itself, see the
 
 ## Projects using {{egg}} and e-graphs
 
-Check out [Philip Zucker](https://www.philipzucker.com/)'s page on [Awesome E-graphs]()
+Check out [Philip Zucker](https://www.philipzucker.com/)'s page on [Awesome E-graphs](https://github.com/philzook58/awesome-egraphs)
  for a list of {{egg}} and e-graph related projects.
 PRs are welcome to add your project to the list!
 
