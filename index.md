@@ -106,60 +106,17 @@ For updates on {{egg}} itself, see the
     appear at POPL 2021! Check out the
     [preprint](https://arxiv.org/abs/2004.03082).
 
-## Projects using {{egg}}
+## Projects using {{egg}} and e-graphs
 
-Are you using {{egg}} in your project? [Open a pull
-request](https://github.com/egraphs-good/egraphs-good.github.io) to add
-your project to this list!
+Check out [Philip Zucker](https://www.philipzucker.com/)'s page on [Awesome E-graphs]()
+ for a list of {{egg}} and e-graph related projects.
+PRs are welcome to add your project to the list!
 
-See who\'s using {{egg}} on
+You can also see who\'s using {{egg}} on
 [GitHub](https://github.com/egraphs-good/egg/network/dependents) and
 [Google Scholar](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4026737513542519986).
 
--   [Ruler](https://github.com/uwplse/ruler) automatically infers
-    rewrite rules using equality saturation.
-    <span class="venue">OOPSLA 2021</span>
--   [Diospyros](https://asplos-conference.org/abstracts/asplos21-paper142-extended_abstract.pdf)
-    automatically vectorizes digital signal processing code.
-    <span class="venue">ASPLOS 2021</span>
--   [Tensat](https://arxiv.org/abs/2101.01332) optimizes deep learning
-    compute graphs both better and faster (up to 50x) than the state of
-    the art.
-    <span class="venue">MLSys 2021</span>
--   [Herbie](http://herbie.uwplse.org/) improves the accuracy of
-    floating point expressions. The
-    [egg-herbie](https://github.com/herbie-fp/egg-herbie) library made
-    parts of Herbie over 3000x faster!
-    <span class="venue">PLDI 2015</span>
--   [Szalinski](https://github.com/uwplse/szalinski) shrinks 3D CAD
-    programs to make them more editable.
-    <span class="venue">PLDI 2020</span>
--   [SPORES](https://arxiv.org/abs/2002.07951) optimized linear algebra
-    expressions up to 5x better than state-of-the-art.
-    <span class="venue">VLDB 2020</span>
--   [Glenside](http://github.com/gussmith23/glenside) explores the
-    design space of hardware accelerators for a given deep learning
-    program.
-    <span class="venue">MAPS 2021</span>
--   [RisingLight](https://github.com/risinglightdb/risinglight) is an
-    educational OLAP database system.
--   The folks at Intel have built a tool for 
-    [Automating Constraint-Aware Datapath Optimization](https://arxiv.org/abs/2303.01839)
-    using {{egg}}.
-    <span class="venue">DAC 2023</span>
--   [Luminal](https://github.com/jafioti/luminal) compiles ML models to fast GPU kernels in seconds to accelerate deep learning on the edge.
--   [Babble](https://github.com/dcao/babble) is a tool for discovering new functions that would simplify existing code.  <a class="venue" href="https://arxiv.org/abs/2212.04596">POPL 2023</a> 
-
-## Projects inspired by {{egg}}
-
--   [Metatheory.jl](https://github.com/0x0f0f0f/Metatheory.jl) uses
-    e-graphs and equality saturation for algebraic reasoning in Julia.
--   Zachary DeVito made an awesome
-    [Colab](https://colab.research.google.com/drive/1tNOQijJqe5tw-Pk9iqd6HHb2abC5aRid?usp=sharing)
-    exploring e-graphs.
--   Philip Zucker has two blog posts about
-    [e-graphs](https://www.philipzucker.com/egraph-1/) and
-    [e-matching](https://www.philipzucker.com/egraph-2/) in Julia.
+---
 
 View or edit this site on
 [GitHub](https://github.com/egraphs-good/egraphs-good.github.io).
