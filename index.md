@@ -115,8 +115,3 @@ PRs are welcome to add your project to the list!
 You can also see who\'s using {{egg}} on
 [GitHub](https://github.com/egraphs-good/egg/network/dependents) and
 [Google Scholar](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4026737513542519986).
-
----
-
-View or edit this site on
-[GitHub](https://github.com/egraphs-good/egraphs-good.github.io).
