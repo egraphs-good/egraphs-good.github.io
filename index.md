@@ -19,43 +19,24 @@ program optimizers and synthesizers.
     </figcaption>
 </figure>
 
-The core [{{egg}}](https://github.com/egraphs-good/egg) library provides
-high-performance, flexible e-graphs implemented in
-[Rust](https://rust-lang.org). It is packaged on
-[crates.io](https://crates.io/crates/egg) and documented on
-[docs.rs](https://docs.rs/egg/*/egg/), including a
-[tutorial](https://docs.rs/egg/*/egg/tutorials/) that provides an
-introduction to e-graphs and their use cases.
+The {{egg}} project maintains two systems that offer different ways to use e-graphs:
 
-The newer [egglog](https://github.com/egraphs-good/egglog) 
- system provides an alternative approach to 
- equality saturation based on Datalog.
-It features a language-based design, incremental execution, and composable analyses.
-Check out the [paper](//mwillsey.com/papers/egglog) and the [web demo](/egglog).
+#### [{{egg}}](https://github.com/egraphs-good/egg)
+- The original high-performance, flexible e-graph library implemented in Rust.
+- Simpler design, a bit more "hackable" if you are looking to understand
+    or poke at the underlying e-graph data structure.
+- See the [docs.rs](https://docs.rs/egg/*/egg/), or the [tutorial](https://docs.rs/egg/*/egg/tutorials/).
+- [BibTeX](https://github.com/egraphs-good/egg/blob/main/CITATION.bib) for citation information.
 
-
-<details class="bibtex">
-  <summary>BibTeX</summary>
-  <code style="display: block; width: 100%; overflow-x: scroll;">
-  <pre>@article{2021-egg,
-    author = {Willsey, Max and Nandi, Chandrakana and Wang, Yisu Remy and Flatt, Oliver and Tatlock, Zachary and Panchekha, Pavel},
-    title = {egg: Fast and Extensible Equality Saturation},
-    year = {2021},
-    issue_date = {January 2021},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    volume = {5},
-    number = {POPL},
-    url = {https://doi.org/10.1145/3434304},
-    doi = {10.1145/3434304},
-    abstract = {An e-graph efficiently represents a congruence relation over many expressions. Although they were originally developed in the late 1970s for use in automated theorem provers, a more recent technique known as equality saturation repurposes e-graphs to implement state-of-the-art, rewrite-driven compiler optimizations and program synthesizers. However, e-graphs remain unspecialized for this newer use case. Equality saturation workloads exhibit distinct characteristics and often require ad-hoc e-graph extensions to incorporate transformations beyond purely syntactic rewrites.  This work contributes two techniques that make e-graphs fast and extensible, specializing them to equality saturation. A new amortized invariant restoration technique called rebuilding takes advantage of equality saturation's distinct workload, providing asymptotic speedups over current techniques in practice. A general mechanism called e-class analyses integrates domain-specific analyses into the e-graph, reducing the need for ad hoc manipulation.  We implemented these techniques in a new open-source library called egg. Our case studies on three previously published applications of equality saturation highlight how egg's performance and flexibility enable state-of-the-art results across diverse domains.},
-    journal = {Proc. ACM Program. Lang.},
-    month = jan,
-    articleno = {23},
-    numpages = {29},
-    keywords = {equality saturation, e-graphs}
-  }</pre></code>
-</details>
+#### [egglog](https://github.com/egraphs-good/egglog)
+- A newer, more powerful system based on Datalog.
+- More sophisticated database-oriented implementation, offering faster pattern matching, incremental execution, and composable e-class analyses.
+- Usable from Rust, a built-in s-exp language, or 
+    [Python bindings](https://egglog-python.readthedocs.io/latest/).
+- See the [docs.rs](https://egraphs-good.github.io/egglog/docs/egglog),
+    the [tutorial](https://egraphs-good.github.io/egglog-tutorial/01-basics.html),
+    or the [web demo](https://egraphs-good.github.io/egglog-demo/).
+- [BibTeX](https://github.com/egraphs-good/egglog/blob/main/CITATION.bib) for citation information.
 
 ## EGRAPHS Community
 
